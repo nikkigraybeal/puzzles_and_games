@@ -1,0 +1,17 @@
+.at-container {
+  position: relative;
+  top: 125px;
+  margin: 10px auto;
+  height: 80px;
+  width: 80%;
+  border: 2px solid green;
+}
+.mm-check-answer {
+  position: relative;
+  right: 200px;
+  top: 20px;
+}
+.guess-container {
+  position: relative;
+  bottom: 27px;
+}

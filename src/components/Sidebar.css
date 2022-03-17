@@ -1,0 +1,15 @@
+.sidebar-container {
+  position: absolute;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background: #BCD040;
+}
+.game-link {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.game-link:hover {
+  color: rgb(54, 54, 204);
+}

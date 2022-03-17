@@ -1,0 +1,14 @@
+.game-title-container {
+  margin-top: 25px;
+}
+.game-title {
+  margin: 0;
+}
+.instructions-link {
+  font-size: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.instructions-link:hover {
+  color: rgb(54, 54, 204);
+}

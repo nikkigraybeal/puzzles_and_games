@@ -1,0 +1,15 @@
+.inst-container {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  background: white;
+  width: 480px;
+  height: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+.hide-inst {
+  display: none;
+}

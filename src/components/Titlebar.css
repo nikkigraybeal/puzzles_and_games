@@ -1,0 +1,28 @@
+.title-container {
+  position: relative;
+  margin-top: -45px;
+  height: 125px;
+  width: 100%;
+  background: #4C9928;
+  color: white;
+  font-size: 2rem;
+}
+.title {
+  position: relative;
+  top: 50px;
+}
+.home-link {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.home-link:hover {
+  color: rgb(54, 54, 204);
+}
+.hide {
+  display: none;
+}

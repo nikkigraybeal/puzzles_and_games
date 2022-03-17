@@ -1,0 +1,43 @@
+.fb-container {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  left: 82%;
+  bottom: 115%;
+}
+.sq {
+  position: absolute;
+  height: 28px;
+  width: 28px;
+}
+.sq1 {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.sq2 {
+  border-bottom: 1px solid black;
+}
+.sq3 {
+  border-right: 1px solid black;
+}
+.cr {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  left: 6px;
+  top: 6px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.sq2, .sq4 {
+  right: 3px;
+}
+.sq3, .sq4 {
+  bottom: 3px;
+}
+.cr2, .cr4 {
+  left: 36px;
+}
+.cr3, .cr4 {
+  top: 36px;
+}

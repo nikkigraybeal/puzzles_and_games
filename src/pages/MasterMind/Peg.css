@@ -1,0 +1,12 @@
+.peg {
+  display: inline-block;
+  height: 20px;
+  width: 25px;
+  border-radius: 45%;
+  background: red;
+  margin: 20px;
+  cursor: pointer;
+}
+.peg:hover {
+  opacity: .5;
+}
