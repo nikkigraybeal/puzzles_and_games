@@ -1,11 +1,19 @@
-import React from 'react'
-
 // styles
 import './Peg.css'
 
 export default function Peg(props) {
-  const color = {background: props.color}
+  const color = { background: props.color }
+  
   return (
-    <div className="peg" style={color}></div>
+    <div 
+      className="peg" 
+      style={color} 
+      draggable={props.draggable} 
+      onDragStart={props.handleDrag}
+      onDrop={props.handleDrop}
+      onDragOver={props.handleDragOver}
+      onDragEnter={props.handleDragEnter}
+      onDragLeave={props.handleDragLeave}
+    ></div>   
   )
 }

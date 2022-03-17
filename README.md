@@ -1,3 +1,10 @@
+What I've learned: 
+  - use state to conditionally render components
+  - hover won't work if invisible divs are covering them up! use z-index to lift them to the top of the UI
+  - overflow: auto; can fix a div that is not filling the entire height. There are potential probs with this that I don't know about yet though. Somehow, using this property on my game container made it fill the space AND caused the sidebar to do the same. I don't understand why yet!
+  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
