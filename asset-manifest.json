@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/puzzles_and_games/static/css/main.351b0148.css",
+    "main.js": "/puzzles_and_games/static/js/main.fb7cf383.js",
+    "index.html": "/puzzles_and_games/index.html",
+    "main.351b0148.css.map": "/puzzles_and_games/static/css/main.351b0148.css.map",
+    "main.fb7cf383.js.map": "/puzzles_and_games/static/js/main.fb7cf383.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351b0148.css",
+    "static/js/main.fb7cf383.js"
+  ]
+}
