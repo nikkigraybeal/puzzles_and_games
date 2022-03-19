@@ -25,8 +25,18 @@ export default function MasterMind() {
   const [ guess, setGuess ] = useState({0: undefined, 1: undefined, 2: undefined, 3: undefined})
 
 
-  const resetGame = () => {
+  const resetGame = (e) => {
     setSecretCode(createSecretCode())
+    setGuess({0: undefined, 1: undefined, 2: undefined, 3: undefined})
+    const pegs = e.target.nextSibling.nextSibling.children
+    for (let peg of pegs) {
+      peg.style = {background: "gray"}
+    }
+    const feedback = e.target.parentNode.lastChild.previousSibling.children 
+    for (let peg of feedback) {
+      console.log(peg)
+      peg.style={background: "transparent"}
+    }
   }
 
   const getColor = (e) => {
@@ -53,6 +63,7 @@ export default function MasterMind() {
         getGuess={getGuess} 
         guess={guess} 
         secretCode={secretCode}
+        resetGame={resetGame}
       ></Attempt>
     </div>
   )

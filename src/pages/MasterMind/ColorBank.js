@@ -11,7 +11,6 @@ export default function ColorBank(props) {
 
   return (
     <div className="color-bank-container"> 
-      <button className="mm-new-game btn" onClick={props.resetGame}>New Game</button>
       <div className="peg-bank-container">
         <h1 className="bank-title">ColorBank</h1>
         <div className="peg-bank">

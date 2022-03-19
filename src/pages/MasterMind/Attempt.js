@@ -28,10 +28,6 @@ iterate over guessArrCopy
 if length of feedbackArr is < 4, push "transparent" until length is 4
 
 setFeedback(feedbackArr)
-
-
-
-
 */
 import { useState } from 'react'
 import Peg from './Peg'
@@ -63,7 +59,14 @@ export default function Attempt(props) {
     props.getGuess(e)
   }
 
-  const handleCheckAnswer = () => {
+  const checkWin = () => {
+    const win = feedback.filter(peg => {
+      return peg === "black"
+    })
+    return win.length === 4 ? true : false
+  }
+
+  const handleCheckAnswer = (e) => {
     const guess = Object.values(props.guess)
     const guessCopy = [...guess]
     const secretCodeCopy = [...props.secretCode]
@@ -94,6 +97,7 @@ export default function Attempt(props) {
 
   return (
     <div className='at-container'>
+      <button className="mm-new-game btn" onClick={(e) => {props.resetGame(e)}}>New Game</button>
       <button className="mm-check-answer btn" onClick={handleCheckAnswer}>check</button>
       <div className="guess-container">
         <Peg color="gray"
@@ -126,6 +130,11 @@ export default function Attempt(props) {
         ></Peg>
       </div>
       <Feedback feedback={feedback}></Feedback>
+      { checkWin() && 
+        <div>
+          <p>You broke the code! Nice work!</p>
+        </div>
+      }
     </div>
   )
 }

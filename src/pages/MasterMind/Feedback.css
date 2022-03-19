@@ -9,6 +9,7 @@
   position: absolute;
   height: 28px;
   width: 28px;
+  background: transparent;
 }
 .sq1 {
   border-bottom: 1px solid black;
@@ -28,6 +29,7 @@
   top: 6px;
   border-radius: 50%;
   border: 1px solid black;
+  background: transparent;
 }
 .sq2, .sq4 {
   right: 3px;
