@@ -1,0 +1,9 @@
+.tile {
+  position: absolute;
+  height: 88px;
+  width: 88px;
+  background: rgb(196, 196, 196);
+  border: 2px solid white;
+  font-size: 3rem;
+  line-height: 90px;
+}

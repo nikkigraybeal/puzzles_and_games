@@ -1,0 +1,8 @@
+.sp-container {
+  background: #DBE0DA;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  overflow: auto;
+}

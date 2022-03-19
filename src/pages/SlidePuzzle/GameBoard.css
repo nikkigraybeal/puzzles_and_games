@@ -1,0 +1,23 @@
+.gb-container {
+  position: realtive;
+  margin: 0px auto;
+  padding: 20px;
+}
+.game-board-frame {
+  position: relative;
+  margin: 30px auto;
+  height: 425px;
+  width: 425px;
+  background: black;
+  border-radius: 12px;
+
+}
+.game-board {
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+  height: 360px;
+  width: 360px;
+  background: gray;
+  border: 2px solid white;
+}
