@@ -8,6 +8,7 @@ export default function Peg(props) {
     <div 
       className="peg" 
       style={color} 
+      index={props.index}
       draggable={props.draggable} 
       onDragStart={props.handleDrag}
       onDrop={props.handleDrop}
